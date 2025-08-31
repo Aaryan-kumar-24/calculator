@@ -241,14 +241,15 @@ body.light-mode .clear {
 }
 
 .equal {
-	background: linear-gradient(145deg, #ff6f00, #e65c00);
-	color: #ffffff;
+  background: linear-gradient(145deg, #00c853, #009624); /* Green gradient */
+  color: #ffffff;
 }
 
 body.light-mode .equal {
-	background: linear-gradient(145deg, #ff9500, #e87b00);
-	color: #ffffff;
+  background: linear-gradient(145deg, #66bb6a, #43a047); /* Lighter green gradient */
+  color: #ffffff;
 }
+
 
 /* Enhanced toggle switch */
 .toggle-container {
