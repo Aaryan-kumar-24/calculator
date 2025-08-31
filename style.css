@@ -210,20 +210,20 @@ body.light-mode .number {
 	background: linear-gradient(145deg, #ffffff, #e5e5e5);
 	color: #2d2d2d;
 }
-
 .operator,
 .backspace,
 .percent {
-	background: linear-gradient(145deg, #ff6f00, #e65c00);
-	color: #ffffff;
+  background: linear-gradient(145deg, #00c853, #009624); /* Green gradient */
+  color: #ffffff;
 }
 
 body.light-mode .operator,
 body.light-mode .backspace,
 body.light-mode .percent {
-	background: linear-gradient(145deg, #ff9500, #e87b00);
-	color: #ffffff;
+  background: linear-gradient(145deg, #66bb6a, #43a047); /* Light mode green gradient */
+  color: #ffffff;
 }
+
 
 .clear {
 	background: linear-gradient(145deg, #666, #555);
@@ -291,7 +291,7 @@ body.light-mode .equal {
 	width: 26px;
 	left: 4px;
 	bottom: 4px;
-	background: #f0c05a;
+	background: #84f05a;
 	transition: all 0.4s ease;
 	border-radius: 50%;
 	box-shadow: -10px 0 0 2px #1a2a44, inset -2px 0 2px rgba(0, 0, 0, 0.2);
@@ -347,7 +347,6 @@ body.light-mode .slider {
 body.light-mode .clock {
 	color: #2d2d2d;
 }
-
 /* History toggle button */
 .history-btn {
 	position: absolute;
@@ -358,7 +357,7 @@ body.light-mode .clock {
 	height: 90px;
 	border-radius: 6px 6px 0px 0px;
 	border: none;
-	background: linear-gradient(145deg, #ff6f00, #e65c00);
+	background: linear-gradient(145deg, #00c853, #009624); /* Green gradient */
 	color: #fff;
 	font-size: 1.4rem;
 	cursor: pointer;
@@ -368,7 +367,7 @@ body.light-mode .clock {
 }
 
 body.light-mode .history-btn {
-	background: linear-gradient(145deg, #ff9500, #e87b00);
+	background: linear-gradient(145deg, #66bb6a, #43a047); /* Light green gradient */
 }
 
 /* Slide-out panel */
